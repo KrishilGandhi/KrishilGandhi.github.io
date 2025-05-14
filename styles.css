@@ -128,15 +128,15 @@ body {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2.5rem;
-    color: #1a1a1a;
+    color: var(--text-dark);
 }
 
 .project-grid {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
 }
 
 .project-card {
@@ -146,6 +146,9 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     border: 1px solid var(--dark-beige);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -155,14 +158,18 @@ body {
 }
 
 .project-card h3 {
-    color: #1a1a1a;
+    color: var(--text-dark);
     margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.project-card p {
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
 }
 
 .project-links {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
+    margin-top: auto;
 }
 
 .project-link {
@@ -170,10 +177,15 @@ body {
     color: var(--accent-brown);
     font-weight: 500;
     transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent-brown);
+    border-radius: 5px;
+    display: inline-block;
 }
 
 .project-link:hover {
-    color: var(--text-dark);
+    color: var(--text-light);
+    background-color: var(--accent-brown);
 }
 
 /* Contact Section */
