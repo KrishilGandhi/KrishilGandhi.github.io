@@ -28,8 +28,8 @@
                 <img src="assets/Krishil.jpg" alt="Krishil Gandhi" class="profile-photo">
             </div>
             <div class="about-text">
-                <p>Hello! I'm Krishil Gandhi, a Computer Architecture and RTL Design enthusiast currently pursuing my studies at Georgia Tech. I'm deeply passionate about designing and implementing efficient digital systems through RTL design and computer architecture.</p>
-                <p>With a strong foundation in digital logic and hardware description languages, I specialize in creating optimized and reliable digital circuits. My expertise spans across various domains including ASIC design, FPGA development, and deep learning hardware acceleration.</p>
+                <p>Hello! I'm Krishil Gandhi, a Computer Architecture and RTL Design enthusiast currently pursuing my studies at Georgia Tech. I have a strong foundation in digital logic and hardware description languages, allowing me to create optimized and reliable digital circuits. </p>
+                <p>Additionally, I have significant experience in design space exploration for various machine learning accelerators and CPU architectures, enabling me to identify optimal trade-offs between performance, energy efficiency, and hardware complexity. My expertise spans across various domains including ASIC design, FPGA development, and deep learning hardware acceleration.</p>
                 <div class="skills">
                     <h3>Technical Skills</h3>
                     <ul class="skill-list">
@@ -59,57 +59,51 @@
         <div class="project-grid">
             <div class="project-card">
                 <h3>Hardware-Software Codesign of DNN Accelerators Using Approximate Posit Multiplierse</h3>
-                <p>Improved design of hardware accelerator for neural networks (Simba) by improving the design of the MAC unit using Verilog and changing the number system of the chip to a modified Posit number system.Achieved 2.2 speedup, 3.1 lower energy use, and 3.2 smaller area without accuracy loss compared to the baseline using the Timeloop accelerator simulator.</p>
+                <p>Designed a hardware accelerator for neural networks (Simba) by improving the design of the MAC unit using Verilog and changing the number system of the chip to a modified Posit number system. Achieved 2.2 speedup, 3.1 lower energy use, and 3.2 smaller area without accuracy loss compared to the baseline using the Timeloop accelerator simulator.</p>
                 <div class="project-links">
-                    <a href="assets/reports/riscv_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/ASPDAC2022.pdf" class="project-link">View Report</a>
                 </div>
             </div>
             
             <div class="project-card">
                 <h3>KALAM: toolKit for Automating high-Level synthesis of Analog computing systeMs</h3>
-                <p>Developed a tool using Python for generating and simulating analog computing systems using margin propagation (MP)-based circuits.The tool supports generation of the following circuits: Bayesian networks using soft MP based analog gates, LDPC decoders (Minsum), and ANN inference via MP-based MAC circuits.</p>
+                <p>Developed a tool using Python for generating and simulating analog computing systems using margin propagation (MP)-based circuits. The tool supports generation of the following circuits: Bayesian networks using soft MP based analog gates, LDPC decoders (Minsum), and ANN inference via MP-based MAC circuits.</p>
                 <div class="project-links">
-                    <a href="assets/reports/memory_hierarchy_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/IISc.pdf" class="project-link">View Report</a>
                 </div>
             </div>
             
             <div class="project-card">
-                <h3>Hardware-Accelerated CNN Engine</h3>
-                <p>Architected a specialized hardware engine for convolutional neural networks. Implemented systolic array matrix multiplication for efficient inference.</p>
+                <h3>A Novel SRAM-Based Cache Architecture for Enhanced Machine Learning Workloads</h3>
+                <p>Designed a near memory (SRAM) accelerator for DNN workloads taking advantage of approximate Posit MAC units and integrating tailored vector Multiply-Accumulate (MAC) Units within SRAM sub-arrays. W analyzed the performance of the proposed design using the Timeloop accelerator simulator as well as the performance of the MAC units made using Verilog.</p>
                 <div class="project-links">
-                    <a href="assets/reports/cnn_accelerator_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/SRIP_2023.pdf" class="project-link">View Report</a>
                 </div>
             </div>
             
             <div class="project-card">
-                <h3>Low-Power IoT SoC Design</h3>
-                <p>Designed a system-on-chip tailored for IoT applications with emphasis on power efficiency. Integrated sensors, processing units, and communication interfaces.</p>
+                <h3>Enhancements to DRAM On-Die ECC for Emerging Integrity Issues </h3>
+                <p>Simulated the reliability of different on-die ECC schemes for DRAM, such as SECDED codes, Reed Solomon codes,BCH codes, and Chipkill using the DRAM-Faultsim reliability simulator using C++. Analyzed the encoder/decoder circuit for SECDED, BCH and Reed Solomon codes in order to find the optimum on
+                    die ECC scheme in terms of reliability, performance and storage overhead.</p>
                 <div class="project-links">
-                    <a href="assets/reports/iot_soc_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/RSCA_Final_report.pdf" class="project-link">View Report</a>
                 </div>
             </div>
             
             <div class="project-card">
-                <h3>UART Communication Protocol</h3>
-                <p>Implemented a full-duplex UART communication module with configurable baud rates and error detection. Verified functionality through comprehensive testbenches.</p>
+                <h3>Hardware Accelerator for CNN Design on FPGA</h3>
+                <p>Designed a single PE containing convolution and pooling blocks and asingle memory level hardware accelerator design for CNN architecture and implemented it on the Xilinx Zedboard FPGA using Verilog. Simulated many floating point MAC units in Cadence Genus
+                    in order to find the best performing MAC unit.</p>
                 <div class="project-links">
-                    <a href="assets/reports/uart_protocol_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/UG_Project_Report.pdf" class="project-link">View Report</a>
                 </div>
             </div>
             
             <div class="project-card">
-                <h3>FPGA-Based Digital Signal Processing</h3>
-                <p>Developed real-time digital filters and signal processing algorithms on FPGA. Implemented FFT accelerators and audio processing pipelines.</p>
+                <h3>Lane Detection using OpenCV on RISC-V based PolarFire SoC Icicle kit</h3>
+                <p>Project involved hardware-software codesign for implementation of Lane Detection using OpenCV, Verilog and C++ on the Microchip Polarfire SoC icicle kit</p>
                 <div class="project-links">
-                    <a href="assets/reports/dsp_fpga_report.pdf" class="project-link">View Report</a>
-                </div>
-            </div>
-            
-            <div class="project-card">
-                <h3>Quantum Computing Simulation Framework</h3>
-                <p>Created a digital framework for simulating quantum circuits and algorithms. Implemented core quantum gates and measurement operations.</p>
-                <div class="project-links">
-                    <a href="assets/reports/quantum_sim_report.pdf" class="project-link">View Report</a>
+                    <a href="assets/reports/VLSID.pdf" class="project-link">View Report</a>
                 </div>
             </div>
         </div>
